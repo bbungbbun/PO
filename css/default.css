@@ -1,0 +1,287 @@
+@media all and (min-width:1200px){
+    
+/* header */
+
+.pc{
+    display: block;
+}
+
+
+header{
+    height: 100vh;
+    background-color: #333;
+}
+
+/* figrue */
+
+figure{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+figure video{
+    width: 100%;
+    min-width: 1600px;
+}
+
+
+
+/* main */
+
+/* row1 */
+
+.row1{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+.row1 h2{
+    font-size: 120px;
+}
+
+.row1>p{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 50px;
+}
+.po{
+    flex-wrap: nowrap;
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.po img{
+    width: 120px;
+    height: 247px;
+}
+
+.po p{
+    font-size: 26px;
+    color: #333;
+}
+
+
+/* poL */
+
+.poL{
+    color: #ccc;
+    height: 800px;
+    width: 100%;
+}
+
+.poL .powrap{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: auto;
+}
+
+.poL .pic{
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 20;
+    position: absolute;
+    top: 90px;
+    left: 0; */
+}
+
+.poL .pic img{
+    width: calc(450px/1.5);
+    display: block;
+}
+
+.poL h4{
+    font-size: 280px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.poL .txt{
+    margin-left: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.poL h5{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.poL p{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+/* play */
+
+.play{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+
+    background-image: url(../images/btnPlay.png);
+    background-repeat: no-repeat;
+    background-position: 35px center;
+
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+    transition: all 0.3s;
+}
+
+.play:hover{
+    transform: translate(3px, 3px);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+.play.stop{
+    background-image: url(../images/btnstop.png);
+}
+
+/* poR */
+
+.poR{
+    color: #ccc;
+    height: 800px;
+    width: 100%;
+}
+
+.poR .powrap{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: auto;
+}
+
+.poR .pic{
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poR .pic img{
+    width: calc(450px/1.5);
+    display: block;
+}
+
+.poR h4{
+    font-size: 280px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.poR .txt{
+    margin-right: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.poR h5{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.poR p{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+/* exp */
+
+.exp{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.exp h3{
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+.exp p{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 80px;
+}
+
+.expL, .expR{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.expL li, .expR li{
+    margin: 40px;
+}
+
+.expL li::before, .expR li:before{
+    content: '-';
+    margin-right: 10px;
+}
+
+.expBtn{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.expBtn li{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* BACKGROUND COLOR */
+
+main .play32{
+    border: 3px solid #ccc;
+}
+
+
+/* 해야 할 일
+
+1. 소리 넣기 (해치움)
+2. 마무리 정리 (해치움)
+3. 애니메이션 넣기 (해치움)
+4. 멈춤버튼 이미지 만들기 (해치움)
+5. 버튼에 호버 효과 넣기 (해치움)
+6. 링크 연결 해놓기 (해치움)
+7. 푸터 만들 수 있으면 만들기
+8. 중간 배너 넣을 수 있으면 넣기
+9. 비디오 잘라서 헤더 뒷배경으로 넣기 (선생님께서 해주심)
+10. 로고에 애니메이션 넣기 (선생님께서  해주심)
+11. po 누르면 상세페이지 넘어가는 효과 넣기 (해치움)
+
+
+질문!!!
+
+
+*/
+}
+
+
+
+
+

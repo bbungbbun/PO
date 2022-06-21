@@ -1,0 +1,145 @@
+@media all and (min-width:768px){
+/* row1 */
+
+.row1 h2{
+    font-size: 100px;
+    margin: 30px 0 30px 0;
+}
+
+.row1>p{
+    font-size: 20px;
+    margin: 30px 0 30px 0;
+
+
+}
+.po{
+    justify-content: unset;
+    margin: 60px auto 60px auto;
+
+}
+
+.po a{
+    width: 20%;
+}
+
+/* poExp */
+
+.poExp{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poExp .txt{
+    margin: 0;
+}
+
+.pic{
+    width: auto;
+    margin: 0;
+}
+.pic img{
+    width: 300px;
+}
+
+
+.powrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} 
+
+.poExp .txt{
+    width: 450px;
+    margin-left: 40px;
+    display: block;
+}
+
+.poExp h4{
+    font-size: 120px;
+    margin-top: 24px;
+}
+
+.poExp h5{
+    font-size: 50px;
+    margin-top: 24px;
+}
+
+.poExp p{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+/* poR */
+
+.poR .txt{
+    margin-left: 0;
+    margin-right: 40px;
+
+}
+
+.poR .pic{
+    order: 2;
+}
+/* play */
+
+.play{
+    width: 120px;
+    height: 120px;
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+
+    background-image: url(../images/btnPlay.png);
+    background-repeat: no-repeat;
+    background-position: 35px center;
+    background-size: auto;
+
+}
+
+.play:hover{
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+.play.stop{
+    background-image: url(../images/btnstop.png);
+    background-repeat: no-repeat;
+    background-position: 35px center;
+    background-size: auto;
+
+}
+
+/* exp */
+
+.exp{
+    margin: 40px 0;
+}
+
+.exp h3{
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+.exp p{
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.expL, .expR{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+}
+
+
+.expL li::before, .expR li:before{
+    content: '-';
+    margin-right: 6px;
+}
+
+.expBtn{
+    font-size: 20px;
+}
+
+
+}
