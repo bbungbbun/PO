@@ -99,12 +99,12 @@ svg .logo-1 {
 
 .row1 h2{
     font-weight: 100;
-    font-size: 40px;
+    font-size: 48px;
     margin: 16px 0 16px 0;
 }
 
 .row1>p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
     margin: 16px 0 16px 0;
 
@@ -115,7 +115,6 @@ svg .logo-1 {
     flex-wrap: wrap;
     width: calc(100% - 40px);
     margin: 30px auto 30px auto;
-
 }
 
 .po a{
@@ -123,9 +122,7 @@ svg .logo-1 {
     width: 33.33%;
 }
 
-.po a img:hover{
-    transform: scale(200%);
-}
+.po a img:hover{transform: scale(200%);}
 
 .po img{
     width: 70%;
@@ -142,21 +139,24 @@ svg .logo-1 {
 
 .poExp{
     color:#ddd;
-    height: 80vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 
 .poExp .txt{
-    margin: 0 40px;
+    margin: 0;
     position: relative;
 }
 
 .pic{
     width: 30%;
     margin: 0 auto;
+
 }
 .pic img{
     width: 100%;
@@ -164,18 +164,18 @@ svg .logo-1 {
 
 .poExp h4{
     font-weight: 100;
-    font-size: 50px;
+    font-size: 48px;
     margin-top: 24px;
 }
 
 .poExp h5{
     font-weight: 100;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 24px;
 }
 
 .poExp p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     margin-top: 24px;
 }
@@ -211,7 +211,7 @@ svg .logo-1 {
     background-image: url(../images/btnstop.png);
     background-repeat: no-repeat;
     background-position: 13px center;
-    background-size: 22px;
+    background-size: 21px;
 }
 
 
@@ -223,27 +223,28 @@ svg .logo-1 {
     text-align: center;
     width: 100%;
     margin: 24px 0;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 .exp h3{
     font-weight: 100;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .exp p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
     margin-top: 24px;
 }
 
 .expWrap{
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
+    width: 100%;
 }
 
 .expL, .expR{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
     text-align: left;
 }
@@ -265,7 +266,7 @@ svg .logo-1 {
 }
 
 .expBtn li{
-    margin: 40px 20px;
+    margin: 40px 10px;
     background-color: #ddd;
     padding: 5px;
     border-radius: 5px;
@@ -280,96 +281,55 @@ svg .logo-1 {
     box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
-/* BACKGROUND COLOR */
 
-/* po12 */
 
-.po12{
-    background-color: #005e4c;
-}
+/****************
+ BACKGROUND COLOR
+****************/
 
-.play12{
-    background-color: #005e4c;
-}
+/* po12 */   
+.po12{background-color: #005e4c;}
+.play12{background-color: #005e4c;}
 
 /* po14 */
-.po14{
-    background-color: #0077a4;
-}
-
-.play14{
-    background-color: #0077a4;
-}
+.po14{background-color: #0077a4;}
+.play14{background-color: #0077a4;}
 
 /* po16 */
-
-.po16{
-    background-color: #d45f29;
-}
-
-.play16{
-    background-color: #d45f29;
-}
+.po16{background-color: #d45f29;}
+.play16{background-color: #d45f29;}
 
 /* po20 */
-.po20{
-    background-color: #642f9e;
-}
-
-.play20{
-    background-color: #642f9e;
-}
-
+.po20{background-color: #642f9e;}
+.play20{background-color: #642f9e;}
 
 /* po24 */
 main .po24{
     background-color: #e3a50c;
-    color: #ddd;
-}
-
-.play24{
-    background-color: #e3a50c;
-}
+    color: #ddd;}
+.play24{background-color: #e3a50c;}
 
 
 /* po28 */
-
-.po28{
-    background-color: #d12f1b;
-}
-
-.play28{
-    background-color: #d12f1b;
-}
+.po28{background-color: #d12f1b;}
+.play28{background-color: #d12f1b;}
  
 /* po32 */
-
 main .po32{
     background-color: #ffffff;
     color: #666;
 }
-
 main .play32{
     background-color: #ffffff;
     border: 1px solid #ccc;
 }
 
 /* po33 */
-
 .po33{
     background-color: #fb5721;
-    color: #ddd;
-}
-
-.play33{
-    background-color: #fb5721;
-}
+    color: #ddd;}
+.play33{background-color: #fb5721;}
  
 /* po35 */
-.po35{
-    background-color: #00829e;
-}
-
-.play35{
-    background-color: #00829e;
-}
+.po35{background-color: #00829e;}
+.play35{background-color: #00829e;}

@@ -10,6 +10,7 @@
 header{
     height: 100vh;
     background-color: #333;
+    
 }
 
 /* figrue */
@@ -89,10 +90,6 @@ figure video{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* z-index: 20;
-    position: absolute;
-    top: 90px;
-    left: 0; */
 }
 
 .poL .pic img{
@@ -138,6 +135,7 @@ figure video{
     background-image: url(../images/btnPlay.png);
     background-repeat: no-repeat;
     background-position: 35px center;
+    background-size: auto;
 
     position: absolute;
     bottom: 50px;
@@ -153,6 +151,8 @@ figure video{
 
 .play.stop{
     background-image: url(../images/btnstop.png);
+    background-position: 35px center;
+    background-size: auto;
 }
 
 /* poR */
@@ -234,9 +234,8 @@ figure video{
     font-weight: 200;
 }
 
-.expL li, .expR li{
-    margin: 40px;
-}
+/* .expL li, .expR li{
+} */
 
 .expL li::before, .expR li:before{
     content: '-';
@@ -260,25 +259,6 @@ main .play32{
 }
 
 
-/* 해야 할 일
-
-1. 소리 넣기 (해치움)
-2. 마무리 정리 (해치움)
-3. 애니메이션 넣기 (해치움)
-4. 멈춤버튼 이미지 만들기 (해치움)
-5. 버튼에 호버 효과 넣기 (해치움)
-6. 링크 연결 해놓기 (해치움)
-7. 푸터 만들 수 있으면 만들기
-8. 중간 배너 넣을 수 있으면 넣기
-9. 비디오 잘라서 헤더 뒷배경으로 넣기 (선생님께서 해주심)
-10. 로고에 애니메이션 넣기 (선생님께서  해주심)
-11. po 누르면 상세페이지 넘어가는 효과 넣기 (해치움)
-
-
-질문!!!
-
-
-*/
 }
 
 
