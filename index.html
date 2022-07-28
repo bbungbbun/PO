@@ -49,12 +49,17 @@
         </figure>
 
     </header>
+
+    <div class="top"><a href="#row1">
+        <span class="top1"></span>
+        <span class="top2"></span>
+    </a></div>
     
     <main>
-        <section class="row1">
+        <section class="row1" id="row1">
             
             <div data-aos="fade-up" data-aos-duration="1000">
-                <h2><a href="https://teenage.engineering/products/po">
+                <h2><a href="https://teenage.engineering/products/po" target="_blank">
                     Pocket Operator
                 </a></h2>
             </div>
@@ -510,7 +515,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
     <script>
         
 
@@ -531,32 +536,25 @@
 
         });
 
-let svg = document.querySelector('svg');
-function draw() {
-  svg.classList.add('active')
-}
-setTimeout(draw, 0);
-
-
+        let svg = document.querySelector('svg');
+        function draw() {
+        svg.classList.add('active')
+        }
+        setTimeout(draw, 0);
         let winWidth = $(window).width();
-
         if(winWidth < 1200){
             $('.poR, .poL').addClass('poExp');
         }else{
             $('.poR, .poL').removeClass('poExp');
         }
-            
 
         $(window).on('resize',function(){
-
             let winWidth2 = $(window).width();
-
         if(winWidth2 < 1200){
             $('.poR, .poL').addClass('poExp');
         }else{
             $('.poR, .poL').removeClass('poExp');
         }
-
         });
 
     </script>

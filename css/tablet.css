@@ -1,8 +1,8 @@
 @media all and (min-width:768px){
 
-    body{
+    /* body{
         overflow-x: hidden;
-    }
+    } */
 
     /* row1 */
     .row1 h2{
@@ -25,7 +25,24 @@
         width: 20%;
     }
 
+    /* top btn */
+        
+    .top{
+        background-color: #bbb;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
 
+    .top:hover{
+        background-color: #ddd;
+        cursor: pointer;
+    }
+    
+    .top:active{
+        transform: translateY(-5px);
+        background-color: #ddd;
+    }
 
     /* poExp */
     .poExp{
@@ -77,14 +94,14 @@
 
     
 /* poR */
-/* 
+
 .poR .txt{
     order: 0;
 } 
  
 .poR .pic{
     order: 1;
-}  */
+}
 
 /* play */
 
