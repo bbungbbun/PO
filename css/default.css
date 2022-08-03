@@ -10,13 +10,6 @@
     display: none;
 }
 
-
-header{
-    height: 100vh;
-    background-color: #333;
-    
-}
-
 /* figrue */
 
 figure{
@@ -31,8 +24,6 @@ figure video{
     width: 100%;
     min-width: 1600px;
 }
-
-
 
 /* main */
 

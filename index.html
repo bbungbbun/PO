@@ -517,6 +517,12 @@
     </script>
     <script>
         
+    function setScreenSize() {
+    let vh = window.innerHeight * 0.01;
+    document.querySelector('header').style.setProperty('--vh', `${vh}px`);
+    }
+
+    window.addEventListener('resize', () => setScreenSize());
 
         $('.play').each(function(){
             let onOff = false;
